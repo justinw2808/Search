@@ -5,35 +5,78 @@ body {
 
 }
 
+.wrapper {
+    height: 100%;
+}
+
 header {
     float: right;
     display: flex;
     justify-content: space-between;
+    bottom: 27.8vh;
+    position: relative;
 
 }
-
-.navbar {
-}
-
 
 a {
-    margin: 5px;
+    margin: 6px;
     text-decoration: none;
     color: black;
+    font-size: 0.9em;
 }
 
 a:hover {
     text-decoration: underline;
 }
 
-section {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-top: 5vh;
-}
-
 section .logo-wrapper {
-    
+    display: flex;
+    flex-direction: row;
+    width: 100%
+    align-items: auto;
+    justify-content: center;
+    margin-top: 27.8vh;
+    margin-left: 222.33px;
 }
 
+.search-wrapper {
+    text-align: center;
+    margin: 21px;
+}
+
+.search-wrapper .search-bar {
+    margin-bottom: 20px;
+}
+
+.search {
+    max-width: 90%;
+    width: 554px;
+    padding: 14px;
+    border: 1px solid lightgrey;
+    border-radius: 25px;
+    outline: none;
+}
+
+.search:hover {
+    box-shadow: 2px 2px 5px lightgrey;
+}
+
+.search-buttons {
+    margin: 10px;
+}
+
+.submit {
+    border: none;
+    margin: 4px;
+    width: 130px;
+    height: 38px;
+    background-color: rgba(242, 242, 242, 0.5);
+    border-radius: 5px;
+    font-family: 'Roboto', sans-serif
+    font-size: 10px;
+}
+
+.submit:hover {
+    border: 1px solid lightgrey;
+    cursor: pointer;
+}
